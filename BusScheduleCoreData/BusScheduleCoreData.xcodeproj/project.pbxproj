@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726428CC1E962FFB004C21C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726428CB1E962FFB004C21C5 /* AppDelegate.swift */; };
+		726428CE1E962FFB004C21C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726428CD1E962FFB004C21C5 /* ViewController.swift */; };
+		726428D11E962FFB004C21C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726428CF1E962FFB004C21C5 /* Main.storyboard */; };
+		726428D41E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 726428D21E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodeld */; };
+		726428D61E962FFB004C21C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726428D51E962FFB004C21C5 /* Assets.xcassets */; };
+		726428D91E962FFB004C21C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726428D71E962FFB004C21C5 /* LaunchScreen.storyboard */; };
+		726428E41E962FFB004C21C5 /* BusScheduleCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726428E31E962FFB004C21C5 /* BusScheduleCoreDataTests.swift */; };
+		726428EF1E962FFB004C21C5 /* BusScheduleCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726428EE1E962FFB004C21C5 /* BusScheduleCoreDataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726428E01E962FFB004C21C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726428C01E962FFB004C21C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726428C71E962FFB004C21C5;
+			remoteInfo = BusScheduleCoreData;
+		};
+		726428EB1E962FFB004C21C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726428C01E962FFB004C21C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726428C71E962FFB004C21C5;
+			remoteInfo = BusScheduleCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		726428C81E962FFB004C21C5 /* BusScheduleCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusScheduleCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726428CB1E962FFB004C21C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		726428CD1E962FFB004C21C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		726428D01E962FFB004C21C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		726428D31E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusScheduleCoreData.xcdatamodel; sourceTree = "<group>"; };
+		726428D51E962FFB004C21C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726428D81E962FFB004C21C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		726428DA1E962FFB004C21C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726428DF1E962FFB004C21C5 /* BusScheduleCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusScheduleCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726428E31E962FFB004C21C5 /* BusScheduleCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusScheduleCoreDataTests.swift; sourceTree = "<group>"; };
+		726428E51E962FFB004C21C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726428EA1E962FFB004C21C5 /* BusScheduleCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusScheduleCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726428EE1E962FFB004C21C5 /* BusScheduleCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusScheduleCoreDataUITests.swift; sourceTree = "<group>"; };
+		726428F01E962FFB004C21C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726428C51E962FFB004C21C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428DC1E962FFB004C21C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428E71E962FFB004C21C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726428BF1E962FFB004C21C5 = {
+			isa = PBXGroup;
+			children = (
+				726428CA1E962FFB004C21C5 /* BusScheduleCoreData */,
+				726428E21E962FFB004C21C5 /* BusScheduleCoreDataTests */,
+				726428ED1E962FFB004C21C5 /* BusScheduleCoreDataUITests */,
+				726428C91E962FFB004C21C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726428C91E962FFB004C21C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726428C81E962FFB004C21C5 /* BusScheduleCoreData.app */,
+				726428DF1E962FFB004C21C5 /* BusScheduleCoreDataTests.xctest */,
+				726428EA1E962FFB004C21C5 /* BusScheduleCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726428CA1E962FFB004C21C5 /* BusScheduleCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				726428CB1E962FFB004C21C5 /* AppDelegate.swift */,
+				726428CD1E962FFB004C21C5 /* ViewController.swift */,
+				726428CF1E962FFB004C21C5 /* Main.storyboard */,
+				726428D51E962FFB004C21C5 /* Assets.xcassets */,
+				726428D71E962FFB004C21C5 /* LaunchScreen.storyboard */,
+				726428DA1E962FFB004C21C5 /* Info.plist */,
+				726428D21E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodeld */,
+			);
+			path = BusScheduleCoreData;
+			sourceTree = "<group>";
+		};
+		726428E21E962FFB004C21C5 /* BusScheduleCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				726428E31E962FFB004C21C5 /* BusScheduleCoreDataTests.swift */,
+				726428E51E962FFB004C21C5 /* Info.plist */,
+			);
+			path = BusScheduleCoreDataTests;
+			sourceTree = "<group>";
+		};
+		726428ED1E962FFB004C21C5 /* BusScheduleCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				726428EE1E962FFB004C21C5 /* BusScheduleCoreDataUITests.swift */,
+				726428F01E962FFB004C21C5 /* Info.plist */,
+			);
+			path = BusScheduleCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726428C71E962FFB004C21C5 /* BusScheduleCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726428F31E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreData" */;
+			buildPhases = (
+				726428C41E962FFB004C21C5 /* Sources */,
+				726428C51E962FFB004C21C5 /* Frameworks */,
+				726428C61E962FFB004C21C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusScheduleCoreData;
+			productName = BusScheduleCoreData;
+			productReference = 726428C81E962FFB004C21C5 /* BusScheduleCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		726428DE1E962FFB004C21C5 /* BusScheduleCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726428F61E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreDataTests" */;
+			buildPhases = (
+				726428DB1E962FFB004C21C5 /* Sources */,
+				726428DC1E962FFB004C21C5 /* Frameworks */,
+				726428DD1E962FFB004C21C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726428E11E962FFB004C21C5 /* PBXTargetDependency */,
+			);
+			name = BusScheduleCoreDataTests;
+			productName = BusScheduleCoreDataTests;
+			productReference = 726428DF1E962FFB004C21C5 /* BusScheduleCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		726428E91E962FFB004C21C5 /* BusScheduleCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726428F91E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreDataUITests" */;
+			buildPhases = (
+				726428E61E962FFB004C21C5 /* Sources */,
+				726428E71E962FFB004C21C5 /* Frameworks */,
+				726428E81E962FFB004C21C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726428EC1E962FFB004C21C5 /* PBXTargetDependency */,
+			);
+			name = BusScheduleCoreDataUITests;
+			productName = BusScheduleCoreDataUITests;
+			productReference = 726428EA1E962FFB004C21C5 /* BusScheduleCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726428C01E962FFB004C21C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Serik Klement";
+				TargetAttributes = {
+					726428C71E962FFB004C21C5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3TX466DVBY;
+						ProvisioningStyle = Automatic;
+					};
+					726428DE1E962FFB004C21C5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3TX466DVBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 726428C71E962FFB004C21C5;
+					};
+					726428E91E962FFB004C21C5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3TX466DVBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 726428C71E962FFB004C21C5;
+					};
+				};
+			};
+			buildConfigurationList = 726428C31E962FFB004C21C5 /* Build configuration list for PBXProject "BusScheduleCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726428BF1E962FFB004C21C5;
+			productRefGroup = 726428C91E962FFB004C21C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726428C71E962FFB004C21C5 /* BusScheduleCoreData */,
+				726428DE1E962FFB004C21C5 /* BusScheduleCoreDataTests */,
+				726428E91E962FFB004C21C5 /* BusScheduleCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726428C61E962FFB004C21C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726428D91E962FFB004C21C5 /* LaunchScreen.storyboard in Resources */,
+				726428D61E962FFB004C21C5 /* Assets.xcassets in Resources */,
+				726428D11E962FFB004C21C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428DD1E962FFB004C21C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428E81E962FFB004C21C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726428C41E962FFB004C21C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726428D41E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodeld in Sources */,
+				726428CE1E962FFB004C21C5 /* ViewController.swift in Sources */,
+				726428CC1E962FFB004C21C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428DB1E962FFB004C21C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726428E41E962FFB004C21C5 /* BusScheduleCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726428E61E962FFB004C21C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726428EF1E962FFB004C21C5 /* BusScheduleCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726428E11E962FFB004C21C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726428C71E962FFB004C21C5 /* BusScheduleCoreData */;
+			targetProxy = 726428E01E962FFB004C21C5 /* PBXContainerItemProxy */;
+		};
+		726428EC1E962FFB004C21C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726428C71E962FFB004C21C5 /* BusScheduleCoreData */;
+			targetProxy = 726428EB1E962FFB004C21C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		726428CF1E962FFB004C21C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726428D01E962FFB004C21C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		726428D71E962FFB004C21C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726428D81E962FFB004C21C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726428F11E962FFB004C21C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		726428F21E962FFB004C21C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726428F41E962FFB004C21C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		726428F51E962FFB004C21C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		726428F71E962FFB004C21C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusScheduleCoreData.app/BusScheduleCoreData";
+			};
+			name = Debug;
+		};
+		726428F81E962FFB004C21C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusScheduleCoreData.app/BusScheduleCoreData";
+			};
+			name = Release;
+		};
+		726428FA1E962FFB004C21C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusScheduleCoreData;
+			};
+			name = Debug;
+		};
+		726428FB1E962FFB004C21C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = BusScheduleCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SerikKlement.BusScheduleCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BusScheduleCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726428C31E962FFB004C21C5 /* Build configuration list for PBXProject "BusScheduleCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726428F11E962FFB004C21C5 /* Debug */,
+				726428F21E962FFB004C21C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726428F31E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726428F41E962FFB004C21C5 /* Debug */,
+				726428F51E962FFB004C21C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		726428F61E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726428F71E962FFB004C21C5 /* Debug */,
+				726428F81E962FFB004C21C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		726428F91E962FFB004C21C5 /* Build configuration list for PBXNativeTarget "BusScheduleCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726428FA1E962FFB004C21C5 /* Debug */,
+				726428FB1E962FFB004C21C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		726428D21E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				726428D31E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodel */,
+			);
+			currentVersion = 726428D31E962FFB004C21C5 /* BusScheduleCoreData.xcdatamodel */;
+			path = BusScheduleCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 726428C01E962FFB004C21C5 /* Project object */;
+}
